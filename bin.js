@@ -23,7 +23,7 @@ Just send me your stickers and I'll convert them!
 
 Oh, and could you please...
  \\* Report bugs when you spot them: https://github.com/mkg20001/tg-asticker2vid-bot/issues
- \\* Donate: https://paypal.me/mkg20001
+ \\* Subscribe: https://youtube.com/channel/UCgpji1WYjJWaGwr0s8CEteQ
 `
 
 const core = require('teleutils')('asticker2vid-bot', {
@@ -42,7 +42,7 @@ async function postConvert (input, output, reply, opt) {
 
   await bot.sendMessage(cid, `Here's the link to download the video: ${mainURL}/${id}/${fName}?dl=1
 
-Donate to keep this bot up! https://paypal.me/mkg20001`, { webPreview: false, replyToMessage: msgId })
+Subscribe my channel in Yt ! https://youtube.com/channel/UCgpji1WYjJWaGwr0s8CEteQ`, { webPreview: false, replyToMessage: msgId })
 
   // clean disk
   input.cleanup()
